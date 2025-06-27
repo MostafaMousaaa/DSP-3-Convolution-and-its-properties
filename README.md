@@ -4,6 +4,24 @@ A comprehensive interactive toolkit for understanding convolution and Linear Tim
 
 **Follows Section 2.3 of the textbook (Proakis and Manolakis, 4th ed.)**
 
+## 🎥 Demo Video
+
+Watch the complete demonstration of the DSP Convolution Visualization Suite in action:
+
+[![DSP Convolution Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](demo_video.mp4)
+
+**Demo Highlights:**
+- **Real-Time Signal Editing**: Interactive click-and-drag signal modification
+- **Live Convolution Computation**: Instant visualization of y[n] = x[n] ∗ h[n]
+- **Step-by-Step Animation**: Mathematical breakdown of convolution process
+- **Property Verification**: Interactive demonstration of LTI system properties
+- **Educational Tools**: Signal templates, presets, and analysis features
+- **Professional UI**: Clean, modern interface optimized for learning
+
+*Click the video above to see the full demonstration of both viewers in action*
+
+---
+
 ## 🎬 Visual Demonstrations
 
 ### Real-Time Interactive Convolution Viewer
