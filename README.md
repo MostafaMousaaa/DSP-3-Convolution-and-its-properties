@@ -12,13 +12,9 @@
 
 **Watch the DSP Convolution Visualization Suite in action:**
 
-<video width="800" controls>
-  <source src="demo_video.mp4" type="video/mp4">
-  <img src="https://via.placeholder.com/800x450/2563eb/ffffff?text=Demo+Video+Coming+Soon" alt="Demo Video Placeholder" />
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/901ccabe-8ac3-48af-94a2-02fd2286f258
 
-*Alternative: [📺 View Demo Video](demo_video.mp4) | [📱 Download Demo](demo_video.mp4)*
+*Experience the full interactive capabilities of both convolution viewers*
 
 </div>
 
@@ -479,6 +475,10 @@ This educational software is designed for academic use in Digital Signal Process
 ### Technical Requirements
 - **Python**: 3.7 or higher
 - **NumPy**: 1.21+ for numerical computations
+- **Matplotlib**: 3.5+ for plotting and visualization
+- **Tkinter**: Usually included with Python installation
+- **Memory**: 4GB RAM recommended for smooth operation
+- **Display**: 1400x900 minimum resolution for optimal viewing
 - **Matplotlib**: 3.5+ for plotting and visualization
 - **Tkinter**: Usually included with Python installation
 - **Memory**: 4GB RAM recommended for smooth operation
