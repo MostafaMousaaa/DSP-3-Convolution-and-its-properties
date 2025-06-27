@@ -1,4 +1,4 @@
-# DSP Convolution and Properties Visualization Suite
+# DSP Convolution and Properties Visualization
 
 **A comprehensive interactive toolkit for understanding convolution and Linear Time-Invariant (LTI) systems.** This educational tool provides visual and mathematical insights into the fundamental concepts of Digital Signal Processing.
 
@@ -10,7 +10,7 @@
 
 <div align="center">
 
-**Watch the DSP Convolution Visualization Suite in action:**
+**Watch the DSP Convolution Visualization in action:**
 
 https://github.com/user-attachments/assets/901ccabe-8ac3-48af-94a2-02fd2286f258
 
@@ -290,19 +290,6 @@ tkinter>=8.6       # GUI framework (usually included)
 - **🎛️ Impulse Response**: h[n] = ba^n u[n]
 - **📊 Analysis**: Recursive vs. non-recursive implementation
 
-## 🏗️ Project Structure
-
-```
-DSP-3-Convolution-and-its-properties/
-├── convolution_viewer.py                       # 🔗 Interactive real-time convolution viewer
-├── convolution_step_by_step_viewer.py          # 🎬 Step-by-step animation viewer
-├── README.md                                   # 📚 Comprehensive documentation
-├── requirements.txt                            # 📦 Python dependencies
-├── image.png                                   # 🖼️ Example output from main viewer
-├── animation.gif                              # 🎬 Example step-by-step animation
-└── demo_video.mp4                             # 🎥 Complete demonstration video
-```
-
 ## 📈 Learning Outcomes
 
 After completing this module, you will understand:
@@ -353,133 +340,12 @@ Enhance this educational resource by adding:
 
 ## 📄 License
 
-This educational software is designed for academic use in Digital Signal Processing courses. Free for educational and research purposes.
+This project is for educational purposes. Feel free to use and modify for learning DSP concepts.
 
 ---
 
-**DSP Convolution and Properties Visualization Suite**  
-**Author**: DSP Education Team  
+**Digital Signal Processing: Linear-Time-Invariant Systems**  
+**Author**: DSP Student  
+**Date**: June 27, 2025  
 **Course**: Digital Signal Processing Fundamentals  
-**Textbook Reference**: Section 2.3 (Proakis and Manolakis, 4th ed.)
-   - Signal manipulation and interaction
-   - Immediate visual feedback
-
-2. **Process Understanding** (Step-by-Step Viewer):
-   - Mathematical step-by-step breakdown
-   - Flip-and-slide methodology
-   - h[n-k] transformation insights
-
-3. **Property Exploration**:
-   - Interactive property verification
-   - Multiple computation methods
-   - System analysis tools
-
-4. **Advanced Applications**:
-   - Filter design concepts
-   - System identification
-   - Stability and causality analysis
-
-### Assessment Integration
-
-The tools support various assessment methods:
-- **Conceptual Questions**: Visual aids for theoretical understanding
-- **Computational Problems**: Step-by-step solution verification
-- **Design Projects**: Interactive filter and system design
-- **Analysis Tasks**: Property verification and system characterization
-
-## 📈 Learning Outcomes
-
-Students using this toolkit will demonstrate:
-
-1. **Visual Understanding**: Interpret convolution through graphical representations
-2. **Mathematical Insight**: Connect visual animations to mathematical equations
-3. **Interactive Learning**: Hands-on experience with signal manipulation
-4. **Process Comprehension**: Step-by-step understanding of convolution computation
-5. **Practical Application**: Real-world signal processing problem solving
-
-The provided visual examples showcase how the tools transform abstract mathematical concepts into intuitive, interactive learning experiences.
-
-## 🔧 Technical Implementation
-
-### Enhanced Black & Blue Theme
-- **Professional Appearance**: Dark theme optimized for technical presentations
-- **High Contrast**: Excellent visibility in classroom environments
-- **Color Coding**: Consistent signal identification across all views
-- **Typography**: Clear, readable fonts for mathematical expressions
-
-### Performance Optimizations
-- **Dynamic Signal Length**: Efficient memory usage for varying signal sizes
-- **Real-Time Updates**: Optimized plotting for interactive responsiveness
-- **Smooth Animations**: Controlled frame rates for educational clarity
-- **Resource Management**: Efficient matplotlib backend usage
-
-### User Interface Design
-- **Intuitive Controls**: Self-explanatory buttons and widgets
-- **Progressive Disclosure**: Advanced features accessible when needed
-- **Contextual Help**: Built-in guidance and status information
-- **Cross-Platform**: Works on Windows, macOS, and Linux
-
-## 🤝 Contributing and Extending
-
-### For Educators
-- **Custom Examples**: Easy addition of new signal types and scenarios
-- **Assessment Tools**: Framework for creating interactive problems
-- **Content Integration**: Seamless integration with course materials
-- **Accessibility**: Support for various learning styles and abilities
-
-### For Developers
-- **Modular Design**: Clean separation of concerns for easy modification
-- **Documented APIs**: Clear interfaces for extending functionality
-- **Testing Framework**: Verification tools for new features
-- **Version Control**: Git-friendly structure for collaborative development
-
-## 📚 References and Further Reading
-
-### Primary Textbook
-**Proakis and Manolakis, "Digital Signal Processing: Principles, Algorithms, and Applications", 4th Edition, Section 2.3**
-
-### Supplementary Materials
-- Convolution properties and mathematical proofs
-- LTI system theory and applications
-- Discrete-time signal processing fundamentals
-- System identification and analysis techniques
-
-### Online Resources
-- Interactive demonstrations and tutorials
-- Problem sets with step-by-step solutions
-- Video explanations of key concepts
-- Community discussions and Q&A
-
-## 📝 License and Usage
-
-This educational software is designed for academic use in Digital Signal Processing courses. The tools are freely available for:
-- **Educational Institutions**: Classroom instruction and laboratory exercises
-- **Student Learning**: Self-study and homework assistance
-- **Research Applications**: Signal processing research and development
-- **Professional Training**: Industry education and skill development
-
-## 🆘 Support and Troubleshooting
-
-### Common Issues
-- **Import Errors**: Ensure NumPy and Matplotlib are properly installed
-- **Display Problems**: Try different matplotlib backends for your system
-- **Performance Issues**: Reduce signal lengths for better responsiveness
-- **Animation Glitches**: Adjust animation speed for smoother playback
-
-### Getting Help
-- Check the troubleshooting section in the code documentation
-- Verify Python version compatibility (3.7+)
-- Ensure all required packages are up to date
-- Test with the provided example signals first
-
-### Technical Requirements
-- **Python**: 3.7 or higher
-- **NumPy**: 1.21+ for numerical computations
-- **Matplotlib**: 3.5+ for plotting and visualization
-- **Tkinter**: Usually included with Python installation
-- **Memory**: 4GB RAM recommended for smooth operation
-- **Display**: 1400x900 minimum resolution for optimal viewing
-- **Matplotlib**: 3.5+ for plotting and visualization
-- **Tkinter**: Usually included with Python installation
-- **Memory**: 4GB RAM recommended for smooth operation
-- **Display**: 1400x900 minimum resolution for optimal viewing
+**Textbook Reference**: Sections 2.2-2.3 (Proakis and Manolakis, 4th ed.)
